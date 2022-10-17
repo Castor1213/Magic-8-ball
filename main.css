@@ -76,7 +76,7 @@ body {
 
 .question-area .error {
 	font-weight: bold;
-	color: #3add8c;
+	color: #e20b0b;
 }
 
 .shake-animation {
@@ -85,26 +85,26 @@ body {
 
 @keyframes shake {
 	0% {
-		left: 290px;
+		left: 0px;
 	}
 
 	20% {
-		left: 340px;
+		left: 40px;
 	}
 
 	40% {
-		left: 290px;
+		left: 90px;
 	}
 
 	60% {
-		left: 340px;
+		left: 40px;
 	}
 
 	80% {
-		left: 290px;
+		left: 90px;
 	}
 
 	100% {
-		left: 300px;
+		left: 0px;
 	}
 }
